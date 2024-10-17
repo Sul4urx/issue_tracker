@@ -1,0 +1,12 @@
+name: "Suggestion (Sul4urlib)"
+description: Suggest an idea for Sul4urlib
+labels: [suggestion, "Data pack: Sul4urlib"]
+assignees: [Sul4urx]
+
+body:
+  - type: textarea
+    attributes:
+      label: Suggestion
+      description: "A description of what the idea you want is. If it is related to a problem, please describe the solution(s) you can think of to fix the problem."
+    validations:
+      required: false

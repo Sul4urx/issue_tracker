@@ -1,0 +1,53 @@
+name: Bug report (SGrave)
+description: Found a bug for the SGrave data pack? Report it here!
+labels: [bug, "Data pack: SGrave"]
+title: "[SGrave|Bug] "
+assignees: [Sul4urx]
+body:
+  - type: dropdown
+    id: datapack_version
+    attributes:
+      label: "Data pack version(s):"
+      description: "Please select which version(s) of SGrave you've been able to reproduce the issue on.
+      multiple: true
+      options:
+        - v1.0.3-beta
+  - type: dropdown
+    id: minecraft_version
+    attributes:
+      label: "Minecraft version(s):"
+      description: "Please select which version(s) of Minecraft you've been able to reproduce the issue on."
+      multiple: true
+      options:
+        - 1.21(.1)
+        - 1.20.5/6
+        - 1.20.3/4
+        - 1.20.2
+        - 1.20(.1)
+        - 1.19.4
+        - Other
+  - type: textarea
+    attributes:
+      label: Description
+      description: A description of what the bug is. Include screenshots if you can.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: "1. Go to '...'\n2. Click on '...'\n3. Scroll down to '...'\n4. See error"
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: What did you expected to happen?
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Is there anything else you want to say? 
+    validations:
+      required: false
