@@ -1,7 +1,7 @@
 name: Bug report (SGrave)
 description: Found a bug for the SGrave data pack? Report it here!
 labels: [bug, "Data pack: SGrave"]
-title: "[SGrave|Bug] "
+title: "SGrave | Bug - "
 assignees: [Sul4urx]
 body:
   - type: dropdown

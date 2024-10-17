@@ -1,7 +1,7 @@
 name: Bug report (Sul4urlib)
 description: Found a bug for the Sul4urlib data pack? Report it here!
 labels: [bug, "Data pack: Sul4urlib"]
-title: "[Sul4urlib|Bug] "
+title: "Sul4urlib | Bug - "
 assignees: [Sul4urx]
 body:
   - type: dropdown

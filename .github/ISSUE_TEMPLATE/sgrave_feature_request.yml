@@ -1,6 +1,7 @@
 name: "Suggestion (SGrave)"
 description: Suggest an idea for SGrave
 labels: [suggestion, "Data pack: SGrave"]
+title: "SGrave | Suggestion - "
 assignees: [Sul4urx]
 
 body:
