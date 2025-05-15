@@ -1,4 +1,4 @@
-# Issues tracker
+# Issue tracker
 
 This repository is for bug reports and suggestions.
 
