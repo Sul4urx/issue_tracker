@@ -11,6 +11,7 @@ body:
       description: "Please select which version(s) of SGrave you've been able to reproduce the issue on."
       multiple: true
       options:
+        - v-1d3
         - v-1d2
         - Other
   - type: dropdown
