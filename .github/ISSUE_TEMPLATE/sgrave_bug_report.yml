@@ -11,8 +11,8 @@ body:
       description: "Please select which version(s) of SGrave you've been able to reproduce the issue on."
       multiple: true
       options:
-        - v-1d3
-        - v-1d2
+        - 'v-1d4 (v1.3.4) (Mod)'
+        - 'v-1d4 (v1.3.4) (Data pack)'
         - Other
   - type: dropdown
     id: minecraft_version
@@ -21,6 +21,9 @@ body:
       description: "Please select which version(s) of Minecraft you've been able to reproduce the issue on."
       multiple: true
       options:
+        - 1.21.10
+        - 1.21.9
+        - 1.21.8
         - 1.21.7
         - 1.21.6
         - 1.21.5
